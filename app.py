@@ -10,7 +10,7 @@ trained_model = model.train_model()
 
 @app.route("/", methods=["GET"])
 def home():
-    return "Google Stock Prophet Model Deployed Successfully!"
+    return "Google Stock Prophet Model Deployed Successfully! + use testing (https://google-stock-prediction-model.onrender.com/predict/60) in any testing tool"
 
 @app.route("/predict", methods=["POST"])
 def predict():
