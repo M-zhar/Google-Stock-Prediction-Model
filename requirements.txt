@@ -1,1 +1,6 @@
 
+flask
+pandas
+prophet
+numpy
+gunicorn
